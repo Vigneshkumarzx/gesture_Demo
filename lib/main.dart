@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'swipegesture.dart';
 import 'longpress.dart';
+import 'profile.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LongPressExample(),
+      home: ProfileScreen(),
     );
   }
 }
